@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0005: O uso da diretiva é desnecessário.
+dotnet_diagnostic.IDE0005.severity = none
+
+# IDE0021: Usar o corpo do bloco para construtores
+csharp_style_expression_bodied_constructors = true
